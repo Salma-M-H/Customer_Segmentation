@@ -1,0 +1,10 @@
+Shape => (2240, 29)
+AcceptedCmp(0->5) => a lot of zeros
+wrong dtype => Dt_Customer (object instead of date)
+missing data => Income column (24 value out of 2240)
+from describe method => Z_CostContact, Z_Revenue => each of them has only one value
+delete=> Id column, Z_CostContact, Z_Revenue (add no information)
+numerical data with different scales
+outliers => year_birth, income, mnt columns, parchase columns (instead of store parchase), NumWebVisitsMonth
+marital_status => combine the lower 3 categories to other 
+182 duplicated rows
