@@ -5,6 +5,7 @@ missing data => Income column (24 value out of 2240)
 from describe method => Z_CostContact, Z_Revenue => each of them has only one value
 delete=> Id column, Z_CostContact, Z_Revenue (add no information)
 numerical data with different scales
-outliers => year_birth, income, mnt columns, parchase columns (instead of store parchase), NumWebVisitsMonth
+right skewed data => Mnt columns & purchases columns (instead of store purchases)
+outliers => year_birth, income, mnt columns, purchase columns (instead of store parchase), NumWebVisitsMonth
 marital_status => combine the lower 3 categories to other 
 182 duplicated rows
